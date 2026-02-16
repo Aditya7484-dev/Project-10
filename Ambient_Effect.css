@@ -7,7 +7,7 @@ body{
   gap: 150px;
   background-color: rgba(5, 2, 2, 0.918);
   min-height: 100vh;
-  min-width: 1000px;
+  min-width: 100vh;
 }
 /* COMMON APPLIED PROPERTY */
 .cube{
@@ -17,7 +17,8 @@ body{
   gap: 150px;
   transform-style: preserve-3d;
   transform: rotateX(-30deg);
-  animation: rotate 8s linear infinite;
+  transition: all 5s ease-in-out;
+  animation: rotate 15s linear infinite;
 }
 .cube:hover{
  animation: rotateScale 10s linear infinite;
